@@ -1,7 +1,6 @@
 apiVersion: v1
 kind: Service
 metadata:
-  namespace: fiware
   name: orion-service
   labels:
     name: orionservice-nodeport-svc
