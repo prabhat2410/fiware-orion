@@ -12,7 +12,7 @@ spec:
       containers:
       
       - name: orion
-        image: csp2-centos-4:5000/fiware-orion
+        image: csp2-centos-1:5000/fiware-orion
         resources:
          limits:
           memory: "1Gi"
