@@ -8,7 +8,7 @@ spec:
   type: NodePort
   ports:
     - port: 1026
-      nodePort: 30180
+      nodePort: 30190
       name: http
     - port: 443
       nodePort: 31443
