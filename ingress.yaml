@@ -11,4 +11,4 @@ spec:
         - path: /
           backend:
             serviceName: orion-service
-            servicePort: 30180
+            servicePort: 30190
