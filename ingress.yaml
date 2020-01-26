@@ -6,7 +6,8 @@ metadata:
     ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
-  - http:
+  - host: old.orion.com
+    http:
       paths:
         - path: /
           backend:
